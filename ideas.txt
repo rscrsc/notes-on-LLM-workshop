@@ -1,0 +1,3 @@
+ - Introduce "Chain of Thought" method by a simple example: 
+    GPT cannot count.
+

@@ -1,0 +1,29 @@
+Medium Blog: GPT-3 Parameters and Prompt Design (https://towardsdatascience.com/gpt-3-parameters-and-prompt-design-1a595dc5b405)
+[[[ It shows the basic meanings of parameters in LLM like "max_tokens"
+    "temperature" ]]]
+
+Blog: Some Kick Ass Prompt Engineering Techniques to Boost our LLM Models (https://www.kdnuggets.com/some-kick-ass-prompt-engineering-techniques-to-boost-our-llm-models)
+[[[ It emphasizes the utility of "Chain of Thought" method, which means
+    the user guide LLMs to show the thinking process to reduce faults ]]]
+
+An answer from GPT:
+
+For your workshop, you can select the following five examples to demonstrate the power of prompt engineering in Large Language Models (LLMs):
+
+1. **Sequential Thinking**: This technique involves adding a phrase like "Let's think step by step" to the prompt, which encourages the LLM to generate a thinking process with multiple steps. This can be used to solve complex problems or tasks that require a series of steps[2].
+
+2. **Few-Shot Prompting**: This technique involves providing the LLM with a few examples of the desired output along with a specific question. This can be used to guide the LLM to generate similar outputs[2].
+
+3. **Chain of Thought (CoT) Prompting**: Introduced by Google, this method involves instructing the LLM to undergo several reasoning stages before delivering the ultimate response. It's like merging both Sequential Thinking and Few-Shot Prompting[2].
+
+4. **Automatic Chain-of-Thought (Auto-CoT)**: This technique involves using LLMs combined with the "Let's think step by step" prompt to sequentially produce reasoning chains for each demonstration. This can be used to improve the way LLM interacts with us[2].
+
+5. **Active-Prompt**: This technique achieves the best performance compared with all baseline models. It is the most effective method for improving the performance of large language models (LLMs) on a variety of reasoning tasks. It outperforms self-consistency by an average of 2.1% with code-davinci-002 and 7.2% with text-davinci-002[4].
+
+Each of these examples demonstrates a different aspect of prompt engineering, from basic techniques to more advanced methods. They show how carefully crafted prompts can guide LLMs to produce more accurate and contextually relevant outputs, saving both time and resources[2][4].
+- [1].[Prompt Engineering Guide](https://www.promptingguide.ai)
+- [2].[Some Kick Ass Prompt Engineering Techniques to Boost our LLM Models - KDnuggets](https://www.kdnuggets.com/some-kick-ass-prompt-engineering-techniques-to-boost-our-llm-models)
+- [3].[A developer's guide to prompt engineering and LLMs - The GitHub Blog](https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/)
+- [4].[Advanced Prompt Engineering Techniques - Mercity AI](https://www.mercity.ai/blog-post/advanced-prompt-engineering-techniques)
+- [5].[Prompt Engineering for Generative AI | Machine Learning - Google for Developers](https://developers.google.com/machine-learning/resources/prompt-eng)
+
